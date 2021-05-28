@@ -1,0 +1,8 @@
+# Compiled JavaScript
+/dist
+.next
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html
+node_modules
+*.md
