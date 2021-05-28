@@ -1,7 +1,11 @@
 import React from 'react';
 
 const IndexPage = () => {
-  return <div>IndexPage</div>;
+  return (
+    <React.Fragment>
+      <div>IndexPage</div>
+    </React.Fragment>
+  );
 };
 
 export default IndexPage;
