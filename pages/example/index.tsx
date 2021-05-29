@@ -38,6 +38,15 @@ const ExamplePage = () => {
         <span>{JSON.stringify(arrayState)}</span>
         <button onClick={handleArrayChange}>Change Array</button>
       </DivContainerSC>
+      <div style={{ margin: '1rem' }}>
+        {arrayState.map((arr, idx) => {
+          return (
+            <div key={idx}>
+              Item {idx + 1}: {arr}
+            </div>
+          );
+        })}
+      </div>
 
       <SimpleAddition />
     </React.Fragment>
